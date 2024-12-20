@@ -1,8 +1,6 @@
 # Wine-quality
 
-Wine quality classification - model optimization 2024
-
-Python (Pandas, scikit-learn, matplotlib, plotly)
+Wine quality classification - model optimization 
 
 Study led on a dataset of 5000 wines:
 
