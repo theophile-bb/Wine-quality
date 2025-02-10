@@ -1,6 +1,8 @@
 # Wine Quality Classification and Model Optimization
 This project focuses on classifying wine quality using machine learning techniques and optimizing the models for improved performance.
 
+![image](https://github.com/user-attachments/assets/08f3db79-7a93-4839-83da-7d278d2fa074)
+
 ## Project Overview
 Wine quality assessment is a complex task influenced by various physicochemical properties. This project aims to develop a predictive model that classifies wines based on their quality ratings. The process involves data preprocessing, exploratory data analysis (EDA), model selection, hyperparameter tuning, and evaluation to achieve optimal classification performance.
 
