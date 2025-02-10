@@ -1,13 +1,58 @@
-# Wine-quality
+# Wine Quality Classification and Model Optimization
+This project focuses on classifying wine quality using machine learning techniques and optimizing the models for improved performance.
 
-Wine quality classification - model optimization 
+## Project Overview
+Wine quality assessment is a complex task influenced by various physicochemical properties. This project aims to develop a predictive model that classifies wines based on their quality ratings. The process involves data preprocessing, exploratory data analysis (EDA), model selection, hyperparameter tuning, and evaluation to achieve optimal classification performance.
 
-Study led on a dataset of 5000 wines:
+## Dataset
+The dataset used in this project contains several physicochemical properties of wines, including:
 
-• Processing and exploration of the dataset
+Fixed Acidity
+Volatile Acidity
+Citric Acid
+Residual Sugar
+Chlorides
+Free Sulfur Dioxide
+Total Sulfur Dioxide
+Density
+pH
+Sulphates
+Alcohol
+The target variable is the wine quality rating, typically on a scale from 0 to 10.
 
-• Accuracy comparison of many different classification models (KNN, Decision Tree, Random Forest,...) before and after optimization using the GridSearchCV method
+## Methodology
+The project follows these key steps:
 
-• Analysis of the results through insightful visualizations
+### Data Preprocessing:
 
-• Theoretical research to understand the results
+• Handling Missing Values: Identifying and addressing any missing data points.
+• Feature Scaling: Normalizing the data to ensure all features contribute equally to the model.
+• Class Balancing: Addressing any imbalances in the quality ratings to prevent biased predictions.
+
+### Exploratory Data Analysis (EDA):
+
+• Correlation Analysis: Examining relationships between features and the target variable.
+• Visualization: Creating plots to understand data distributions and identify patterns.
+
+### Model Selection and Training:
+
+• Algorithm Choice: Evaluating various classification algorithms to determine the most suitable for the task.
+• Cross-Validation: Implementing cross-validation techniques to ensure model robustness.
+
+### Hyperparameter Tuning:
+
+• Optimization: Fine-tuning model parameters using grid search or random search methods to enhance performance.
+
+### Model Evaluation:
+
+• Performance Metrics: Assessing models using metrics such as accuracy, precision, recall, F1-score, and confusion matrices.
+• Validation: Testing the model on unseen data to evaluate its generalization capability.
+
+### Results interpretation and explanations :
+
+• Theoretical explainations to understand the results
+
+## Results
+The optimized model demonstrated improved accuracy and generalization in classifying wine quality. Detailed results, including performance metrics and visualizations, are available in the project notebook.
+
+
